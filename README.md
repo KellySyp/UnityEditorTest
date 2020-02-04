@@ -1,3 +1,5 @@
-#Test Environment to Learn Unity Window Editor
+Test Environment to Learn Unity Window Editor
 
-That's pretty much it. It's not so exciting right now.
+To run, copy all files to Asset Folder
+
+That's pretty much it. It's not so exciting right now. I'm working on propping up a player Editor Window and Dialogue options.
