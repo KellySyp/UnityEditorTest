@@ -1,0 +1,19 @@
+Hello, pick a card!
+{Heart} GOTO-Heart
+{Club} GOTO-Club
+{Spade} GOTO-Spade
+{Diamond} GOTO-Diamond
+
+-Heart
+CALL-changeMove(2)
+I love you!
+
+-Club
+CALL-playAudio('Coin.wav')
+Thanks!
+
+-Spade
+You picked Spade
+
+-Diamond
+If I was a rich bot! NAH NAH NAH"

@@ -1,0 +1,4 @@
+Hello [Name], my friend.
+I heard you like [Food]!
+I hope you are well.
+How is the weather in [Location]?

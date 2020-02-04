@@ -1,0 +1,8 @@
+Let's test a basic call
+
+CALL testOut
+CALL testParm "Hello you beautiful People!"
+CALL testNumeric 12
+Thanks!
+
+-next

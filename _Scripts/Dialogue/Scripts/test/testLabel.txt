@@ -1,0 +1,6 @@
+Hi. Let's skip the small talk.
+GOTO end
+I hope everyone is Well!
+YAY!
+-end
+See isn't that easy?

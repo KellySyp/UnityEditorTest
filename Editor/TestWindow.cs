@@ -3,37 +3,29 @@ using UnityEditor;
 
 public class TestWindow : EditorWindow
 {
-   [Header("Test")]
-   Color color;
+  //Name, speed, curr HP, max HP, curr MP, Max MP, 
+  string name = "Joe";
+  float speed = 2;
+  float currHP = 100;
+  float maxHP = 100;
+  
    
-   [MenuItem("Window/Colorizer")]
+   [MenuItem("Window/Player")]
    public static void ShowWindow()
    {
-	   GetWindow<TestWindow>("Colorizer");
+	   GetWindow<TestWindow>("Player");
    }
    
    void OnGUI()
-   {
-	   //Window Code
-	   GUILayout.Label("Color Selected Objects", EditorStyles.boldLabel);
+   {	   
+	   name = EditorGUILayout.TextField("Name", name);
+	   speed = EditorGUILayout.Slider("Speed", speed, 1, 5);
+	   currHP = EditorGUILayout.Slider("Current HP", currHP, 1, 100);
+	   maxHP = EditorGUILayout.Slider("Max HP", maxHP, 1, 100);
 	   
-	   color = EditorGUILayout.ColorField("Color", color);
-	   
-	   if(GUILayout.Button("Colorize Me!"))
+	   if(GUILayout.Button("Update Player!"))
 	   {
-			Colorize();
+			Debug.Log("Save Player");
 	   }
-   }
-   
-   void Colorize()
-   {
-	   foreach(GameObject obj in Selection.gameObjects)
-	   {
-		   Renderer ren = obj.GetComponent<Renderer>();
-		   if(ren != null)
-		   {
-			   ren.sharedMaterial.color = color;
-			}
-		}
    }
 }

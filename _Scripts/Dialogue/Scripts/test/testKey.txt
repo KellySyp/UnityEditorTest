@@ -1,0 +1,15 @@
+Hello! Can you find me a McGuffin?
+
+CALS-checkKey('McGuffin')
+
+-notHave
+I sure could use a McGuffin!
+
+-doesHave
+Oh thank you! This is exactly what I needed! Here is some Gold!
+CALL-addGold(10)
+Thanks again.
+CALL-endKey()
+
+-end
+Thank you so much for finding that McGuffin!

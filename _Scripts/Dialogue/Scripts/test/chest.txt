@@ -1,0 +1,5 @@
+You found 500 Gold!!
+CALL addGold 500
+
+-used
+This is empty

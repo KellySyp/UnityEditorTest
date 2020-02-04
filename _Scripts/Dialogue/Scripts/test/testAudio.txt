@@ -1,0 +1,5 @@
+Hello, let's make some noise!
+
+CALL playAudio 'Coin.wav'
+
+Thanks!

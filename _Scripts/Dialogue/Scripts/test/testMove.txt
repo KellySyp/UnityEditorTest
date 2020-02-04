@@ -1,0 +1,8 @@
+Hello, what do you want me to do?
+
+{Follow Me} CALL-changeMove(2)
+{Go Away!} CALL-changeMove(3)
+{Whatever you want.} CALL-changeMove(1)
+{Stop} CALL-changeMove(0)
+
+ok!

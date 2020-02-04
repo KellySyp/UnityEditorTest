@@ -1,0 +1,7 @@
+Would you like to test Game Over Function?
+
+{Yes.} CALL-testEndGame()
+{No thanks.} GOTO-bad
+
+-bad
+That is unfortunate.

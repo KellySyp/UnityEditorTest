@@ -1,0 +1,12 @@
+-rdm0
+Hi How are you?
+
+-rdm1
+Today is a beautiful day!
+Isn't it?
+
+-rdm2
+The birds are singing and the sun is shining.
+
+-rdm3
+REDRUMREDRUMREDRUM!!!!

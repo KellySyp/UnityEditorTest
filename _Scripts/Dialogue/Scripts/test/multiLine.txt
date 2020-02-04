@@ -1,0 +1,7 @@
+This is multiple lines
+#Go away, this is a comment
+I hope everyone is Well!
+YAY!
+
+-next
+Goodbye.

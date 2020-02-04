@@ -1,0 +1,9 @@
+Would you like to buy something?
+
+{Yes.} CALL-openShop()
+{No thanks.} GOTO-bad
+
+Thanks
+
+-bad
+That is unfortunate.

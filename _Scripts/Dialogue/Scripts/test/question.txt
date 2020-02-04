@@ -1,0 +1,24 @@
+#Hi. Let's skip the small talk.
+#GOTO end
+#I hope everyone is Well!
+#YAY!
+#-end
+#See isn't that easy?
+
+I have a question.
+
+How are you today?
+{Good.} CALL testOut
+{Not Good.}CALL testNumeric 12
+{No Input} CALL testParm RAWWWAAARRRR !!!!!! 123 43
+rar
+-end
+
+
+That's too bad.
+
+-Good
+I am glad to hear!
+
+-bad
+That is unfortunate.
